@@ -3,7 +3,6 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import { FaAddressBook } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import { b1, b4, b5, grid, vite ,re, p2, ts, tail, eslint, javascriptLogo, xora, p3, css, p4, reactRouterSvg, reactRouterWebp, reactQuerySvg, tanstackQuery, reactHookFormSvg, reactHookFormWebp, ZodSvg, certificateZod, shadCnSvg, shadCnJpg, framerMotionSvg, motionWebp, tanstanckPng, reactTable, chartJsSvg, rechartsWebp, html5, gitSvg, reactSvg, gulpSvg, pnpmSvg, gitSocial, tweetSocial, linkedinSocial } from '@/assets';
-import { motion } from 'framer-motion';
 
 export const navItems = [ 
     { icon: <AiOutlineUser/> , name: "About", link: "about" , id : 1 },

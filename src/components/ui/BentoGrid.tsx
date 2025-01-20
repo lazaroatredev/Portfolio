@@ -104,7 +104,7 @@ export const BentoGridItem = ({
           <div className={`font-sans font-bold text-lg lg:text-3xl max-w-[96] z-10 ${id===3 && ''}`}>
             {title}
           </div>
-          {/* {id === 2 && <GlobeDemo />} */}
+          {id === 2 && <GlobeDemo />}
           {id === 3 && (
             <div className="flex absolute -right-3 sm:-right-8 lg:-right-2  mt-4 gap-1 lg:gap-5 w-fit">
               <div className="flex flex-col gap-2 lg:gap-4 overflow-hidden">
