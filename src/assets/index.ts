@@ -42,8 +42,10 @@ import footerGrid from './footer-grid.svg'
 import certificateBeggTs from './certificateBeggTs.png'
 import certificateReactTs from './certificateReact+Ts.png'
 import certificateTsErrors from './certificateTsErrors.png'
+import sass from './sass-1.svg'
 
 export {
+    sass,
     certificateTsErrors,
     certificateReactTs,
     certificateBeggTs,

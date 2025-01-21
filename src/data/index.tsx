@@ -2,7 +2,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { AiOutlineAppstore } from "react-icons/ai";
 import { FaAddressBook } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
-import { b1, b4, b5, grid, vite ,re, p2, ts, tail, eslint, javascriptLogo, xora, p3, css, p4, reactRouterSvg, reactRouterWebp, reactQuerySvg, tanstackQuery, reactHookFormSvg, reactHookFormWebp, ZodSvg, certificateZod, shadCnSvg, shadCnJpg, framerMotionSvg, motionWebp, tanstanckPng, reactTable, chartJsSvg, rechartsWebp, html5, gitSvg, reactSvg, gulpSvg, pnpmSvg, gitSocial, tweetSocial, linkedinSocial } from '@/assets';
+import { b1, b4, b5, grid, vite ,re, p2, ts, tail, eslint, javascriptLogo, xora, p3, css, p4, reactRouterSvg, reactRouterWebp, reactQuerySvg, tanstackQuery, reactHookFormSvg, reactHookFormWebp, ZodSvg, certificateZod, shadCnSvg, shadCnJpg, framerMotionSvg, motionWebp, tanstanckPng, reactTable, chartJsSvg, rechartsWebp, html5, gitSvg, reactSvg, gulpSvg, pnpmSvg, gitSocial, tweetSocial, linkedinSocial, sass } from '@/assets';
 
 export const navItems = [ 
     { icon: <AiOutlineUser/> , name: "About", link: "about" , id : 1 },
@@ -183,20 +183,25 @@ export const skills = [
         name: "React.",
         img: reactSvg,
     },
+    // {
+    //     id: 7,
+    //     name: "Vite.",
+    //     img: vite,
+    // },
     {
-        id: 7,
-        name: "Vite.",
-        img: vite,
+        id: 11,
+        name: "Tailwind",
+        img: tail,
+    },
+    {
+        id: 12,
+        name: "Sass",
+        img: sass,
     },
     {
         id: 9,
         name: "Gulp.",
         img: gulpSvg,
-    },
-    {
-        id: 11,
-        name: "Tailwind",
-        img: tail,
     },
     {
         id: 10,

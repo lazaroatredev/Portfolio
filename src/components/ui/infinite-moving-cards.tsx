@@ -99,13 +99,13 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <div className="grid grid-cols-5 md:gap-4 lg:gap-0 justify-center items-center">
+              <div className="grid grid-cols-5 gap-4 lg:gap-0 justify-center items-center">
                 <div className="flex flex-col items-center justify-center gap-4 col-span-2">
-                  <h2 className=" relative z-20 text-white text-lg md:text-2xl font-semibold">
+                  <h2 className=" relative z-20 text-white text-lg md:text-2xl font-semibold overflow-hidden whitespace-nowrap text-ellipsis">
                     {item.tool}
                   </h2>
                   <div className="w-20 h-20">
-                    <img src={item.logo} alt="Logo" className="w-full" color={`${item.tool==='ShadCn' && 'white'}`}/>
+                    <img src={item.logo} alt="Logo" className="w-full h-full object-contain" color={`${item.tool==='ShadCn' && 'white'}`}/>
                   </div>
                 </div>
                 <div className="w-full h-40 lg:h-48 col-span-3 rounded-2xl flex justify-center items-center">
