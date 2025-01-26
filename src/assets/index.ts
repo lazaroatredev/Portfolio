@@ -11,6 +11,7 @@ import eslint from './eslint-icon.svg'
 import p2 from './p2.svg'
 import p3 from './p3.png'
 import p4 from './p4.png'
+import p5 from './p5.png'
 import javascriptLogo from './javascript-logo-svgrepo-com.svg'
 import css from './w3_css-icon.svg'
 import reactRouterSvg from './react-router-svgrepo-com.svg'
@@ -43,8 +44,10 @@ import certificateBeggTs from './certificateBeggTs.png'
 import certificateReactTs from './certificateReact+Ts.png'
 import certificateTsErrors from './certificateTsErrors.png'
 import sass from './sass-1.svg'
+import appwrite from './app.svg'
 
 export {
+    appwrite,
     sass,
     certificateTsErrors,
     certificateReactTs,
@@ -88,6 +91,7 @@ export {
     p2,
     p3,
     p4,
+    p5,
     javascriptLogo,
     css         
 }

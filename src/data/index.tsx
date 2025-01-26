@@ -2,7 +2,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { AiOutlineAppstore } from "react-icons/ai";
 import { FaAddressBook } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
-import { b1, b4, b5, grid, vite ,re, p2, ts, tail, eslint, javascriptLogo, xora, p3, css, p4, reactRouterSvg, reactRouterWebp, reactQuerySvg, tanstackQuery, reactHookFormSvg, reactHookFormWebp, ZodSvg, certificateZod, shadCnSvg, shadCnJpg, framerMotionSvg, motionWebp, tanstanckPng, reactTable, chartJsSvg, rechartsWebp, html5, gitSvg, reactSvg, gulpSvg, pnpmSvg, gitSocial, tweetSocial, linkedinSocial, sass } from '@/assets';
+import { b1, b4, b5, grid, vite ,re, p2, ts, tail, eslint, javascriptLogo, xora, p3, css, reactRouterSvg, reactRouterWebp, reactQuerySvg, tanstackQuery, reactHookFormSvg, reactHookFormWebp, ZodSvg, certificateZod, shadCnSvg, shadCnJpg, framerMotionSvg, motionWebp, tanstanckPng, reactTable, chartJsSvg, rechartsWebp, html5, gitSvg, reactSvg, gulpSvg, pnpmSvg, gitSocial, tweetSocial, linkedinSocial, sass, p5, appwrite } from '@/assets';
 
 export const navItems = [ 
     { icon: <AiOutlineUser/> , name: "About", link: "about" , id : 1 },
@@ -101,12 +101,12 @@ export const projects = [
         link: "https://github.com/lazaroatredev/Modern__UI-UX--GPT3",
     },
     {
-        id: 4,
-        title: "Nike-Landing",
-        des: "Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance",
-        img: p4,
-        iconLists: [vite, re, ts, tail, eslint],
-        link: "https://github.com/lazaroatredev/Modern__UI-UX_Nike",
+        id: 5,
+        title: "Movie-App",
+        des: "Find Movies You'll Enjoy Whitout the Hassle",
+        img: p5,
+        iconLists: [vite, re, ts, tail, eslint, appwrite , reactQuerySvg],
+        link: "https://github.com/lazaroatredev/Movie__App",
     },
 ];
 

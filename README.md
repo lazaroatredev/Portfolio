@@ -29,7 +29,7 @@ Here are some highlights of projects I've worked on:
 - **[Project 1](https://lazaroatredev.github.io/Modern-UI-UX-Xora-SaaS-Landing/)**
 - **[Project 2](https://lazaroatredev.github.io/Modern_UI_UX-HooBank-Landing/)**
 - **[Project 3](https://lazaroatredev.github.io/Modern__UI-UX--GPT3/)**
-- **[Project 3](https://lazaroatredev.github.io/Modern__UI-UX_Nike/)**
+- **[Project 4](https://github.com/lazaroatredev/Movie__App/)**
 
 ## My Skills  
 
