@@ -45,9 +45,12 @@ import certificateReactTs from './certificateReact+Ts.png'
 import certificateTsErrors from './certificateTsErrors.png'
 import sass from './sass-1.svg'
 import appwrite from './app.svg'
+import nextSvg from './nextjs-icon-svgrepo-com.svg'
+
 
 export {
     appwrite,
+    nextSvg,
     sass,
     certificateTsErrors,
     certificateReactTs,

@@ -6,6 +6,7 @@ import animationData from '@/data/confetti.json'
 import { useState } from "react";
 import BorderMagicBtn from "./borderMagic-btn";
 import { FaLocationArrow } from "react-icons/fa6";
+import { nextSvg } from "@/assets";
 
 export const BentoGrid = ({
   className,
@@ -106,29 +107,8 @@ export const BentoGridItem = ({
           </div>
           {id === 2 && <GlobeDemo />}
           {id === 3 && (
-            <div className="flex absolute -right-3 sm:-right-8 lg:-right-2  mt-4 gap-1 lg:gap-5 w-fit">
-              <div className="flex flex-col gap-2 lg:gap-4 overflow-hidden">
-                {["React", "TypeScript", "TailwindCSS" , "Git"].map((item) => (   
-                  <span
-                    key={item} 
-                    className="py-2 lg:py-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span> 
-                ))}
-                <span className="py-4 lg:py-6 px-3 rounded-lg text-center bg-[#10132E]"/>
-              </div>
-              <div className="flex flex-col gap-2 lg:gap-4 overflow-hidden">
-                <span className="py-4 lg:py-6 px-3 rounded-lg text-center bg-[#10132E]"/>
-                {["Zod" , "Sass" ,"pnpm", "Vite" ].map((item) => (   
-                  <span
-                    key={item} 
-                    className="py-2 lg:py-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span> 
-                ))}
-              </div>
+            <div className="flex absolute -right-6 size-56 md:right-4 md:size-40 lg:-right-6 lg:size-56 xl:size-80">
+              <img src={nextSvg} alt="Next.Js" className="w-full h-full  rounded-full"/>
             </div>
           )}
           {id===6 && (

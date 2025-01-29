@@ -34,8 +34,8 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "My tech stack",
-        description: "I constantly try to improve",
+        title: "Next.Js",
+        description: "Actually Learning",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -130,17 +130,17 @@ export const tools = [
         tool : "Zod",
         logo : ZodSvg,
         img : certificateZod
-    },
+    },  
     {
         tool : "ShadCn",
         logo : shadCnSvg,
         img : shadCnJpg
     },
-    {
-        tool : "Framer Motion",
-        logo : framerMotionSvg,
-        img : motionWebp
-    },
+    // {
+    //     tool : "Framer Motion",
+    //     logo : framerMotionSvg,
+    //     img : motionWebp
+    // },
     {
         tool : "TanStack Table",
         logo : tanstanckPng,
@@ -311,20 +311,20 @@ export const toolsData = [
       imageSrc: shadCnJpg,  
       altText: "ShadCn",  
     },  
-    {  
-      title: "Framer Motion",  
-      description: "Library for creating smooth animations and transitions in React applications.",  
-      features: [  
-        "Simple Animation Syntax",  
-        "Variants for Complex Animations",  
-        "Gesture Support (drag, hover, tap)",  
-        "Shared Layout Transitions",  
-        "Staggered Animations",  
-        "Exit and Enter Animations",  
-      ],  
-      imageSrc: motionWebp,  
-      altText: "Motion",  
-    },  
+    // {  
+    //   title: "Framer Motion",  
+    //   description: "Library for creating smooth animations and transitions in React applications.",  
+    //   features: [  
+    //     "Simple Animation Syntax",  
+    //     "Variants for Complex Animations",  
+    //     "Gesture Support (drag, hover, tap)",  
+    //     "Shared Layout Transitions",  
+    //     "Staggered Animations",  
+    //     "Exit and Enter Animations",  
+    //   ],  
+    //   imageSrc: motionWebp,  
+    //   altText: "Motion",  
+    // },  
     {  
       title: "Tanstack Table",  
       description: "Library for building powerful tables and data-grid components in React applications.",  
@@ -354,7 +354,7 @@ export const toolsData = [
   ];  
 
 export const socialMedia = [
-    {
+    { 
         id: 1,
         img: gitSocial,
         url : "https://github.com/lazaroatredev"
